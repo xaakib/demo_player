@@ -6,7 +6,7 @@ class TopBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return CustomPaint(
       child: Container(
-        height: 300.0,
+        height: 334.0,
       ),
       painter: CurvePainter(),
     );
@@ -21,7 +21,7 @@ class CurvePainter extends CustomPainter{
 
 
   path.lineTo(0, size.height *0.75);
-  path.quadraticBezierTo(size.width* 0.10, size.height*0.70, size.width*0.17, size.height*0.90);
+  path.quadraticBezierTo(size.width* 0.10, size.height*0.70, size.width*0.17, size.height*.90);
   path.quadraticBezierTo(size.width*0.20, size.height, size.width*0.25, size.height*0.90);
   path.quadraticBezierTo(size.width*0.40, size.height*0.40, size.width*0.50, size.height*0.70);
   path.quadraticBezierTo(size.width*0.60, size.height*0.85, size.width*0.65, size.height*0.65);
