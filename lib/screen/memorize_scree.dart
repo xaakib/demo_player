@@ -43,6 +43,7 @@ class _MemorizeScreenState extends State<MemorizeScreen> {
           title: Text(
             "Memorize",
             style: TextStyle(
+              fontWeight: FontWeight.w300,
               color: Colors.black,
             ),
           ),
@@ -74,7 +75,7 @@ class _MemorizeScreenState extends State<MemorizeScreen> {
                 dayRemain: "6",
                 complete: "5/7",
               ),
-              
+             
             ],
           ),
         ));

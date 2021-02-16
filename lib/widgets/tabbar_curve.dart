@@ -1,4 +1,3 @@
-import 'package:demo_player/theme/colors.dart';
 import 'package:flutter/material.dart';
 
 class TopBar extends StatelessWidget {
