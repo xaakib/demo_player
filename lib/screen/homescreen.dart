@@ -13,7 +13,6 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         children: <Widget>[
           Container(
-            height: 450,
             child: TopBar(),
           ),
           SizedBox(
