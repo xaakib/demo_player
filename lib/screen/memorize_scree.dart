@@ -40,6 +40,14 @@ class _MemorizeScreenState extends State<MemorizeScreen> {
             color: Colors.black,
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+              icon: Icon(
+                Icons.exit_to_app,
+                color: Colors.black,
+              ),
+              onPressed: () {})
+        ],
       ),
     );
   }
