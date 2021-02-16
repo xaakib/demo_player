@@ -75,7 +75,6 @@ class _MemorizeScreenState extends State<MemorizeScreen> {
                 dayRemain: "6",
                 complete: "5/7",
               ),
-             
             ],
           ),
         ));
