@@ -5,8 +5,6 @@ class TopBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: <Widget>[
-       
-      
         ClipPath(
           child: Container(
             height: 350,
